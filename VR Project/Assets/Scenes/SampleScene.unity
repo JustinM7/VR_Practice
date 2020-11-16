@@ -98,6 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
+
   m_LightingSettings: {fileID: 576607835}
 --- !u!196 &4
 NavMeshSettings:
@@ -370,6 +371,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+
   - component: {fileID: 302493413}
   - component: {fileID: 302493412}
   - component: {fileID: 302493411}
@@ -387,6 +389,7 @@ MeshCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 302493409}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -401,6 +404,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 302493409}
   m_Enabled: 1
   m_CastShadows: 1
@@ -445,6 +449,7 @@ MeshFilter:
   m_GameObject: {fileID: 302493409}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &302493413
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -718,6 +723,7 @@ MonoBehaviour:
   m_OnHoverExit:
     m_PersistentCalls:
       m_Calls: []
+
   m_OnLastHoverExit:
     m_PersistentCalls:
       m_Calls: []
@@ -958,6 +964,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+
   - component: {fileID: 755195526}
   - component: {fileID: 755195525}
   - component: {fileID: 755195524}
@@ -1815,6 +1822,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 1
+
   m_HideControllerOnSelect: 0
   m_PlayAudioClipOnSelectEnter: 0
   m_AudioClipForOnSelectEnter: {fileID: 0}
@@ -2101,6 +2109,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1596374929}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2149,6 +2158,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+
 --- !u!33 &1596374935
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2685,3 +2695,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dacf9e225aade4c4498bcd2806e54637, type: 3}
+
